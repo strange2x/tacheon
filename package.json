@@ -1,7 +1,7 @@
 {
-    "name": "altv-quickstart-ts",
-    "version": "4.1.0",
-    "description": "The Fastest Typescript Repo for alt:V",
+    "name": "tacheon-server",
+    "version": "1.0.0",
+    "description": "Tacheon Roleplay Server",
     "main": "",
     "scripts": {
         "clean": "rimraf ./resources",
@@ -12,7 +12,7 @@
         "windev": "nodemon --watch \"./src/**\" --ext \"ts\" --exec \"npm run build && altv-server.exe\"",
         "dev": "npm run windev"
     },
-    "author": "stuyk",
+    "author": "strange2x",
     "license": "ISC",
     "devDependencies": {
         "@altv/types-client": "^2.1.1",
