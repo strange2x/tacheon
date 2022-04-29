@@ -11,3 +11,5 @@ data/
 cache/
 crashdumps/
 package-lock.json
+start.sh
+libnode*

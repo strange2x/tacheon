@@ -1,0 +1,6 @@
+[submodule "tacheon-core"]
+	path = tacheon-core
+	url = https://github.com/strange2x/tacheon-core.git
+[submodule "src/tacheon-core"]
+	path = src/tacheon-core
+	url = https://github.com/strange2x/tacheon-core.git
