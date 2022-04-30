@@ -13,3 +13,4 @@ crashdumps/
 package-lock.json
 start.sh
 libnode*
+.env

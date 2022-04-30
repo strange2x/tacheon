@@ -10,6 +10,7 @@
         "windows": "npm run build && altv-server.exe",
         "linux": "npm run build && ./start.sh",
         "windev": "nodemon --watch \"./src/**\" --ext \"ts\" --exec \"npm run build && altv-server.exe\"",
+        "lindev": "nodemon --watch \"./src/**\" --ext \"ts\" --exec \"npm run build && ./start.sh\"",
         "dev": "npm run windev"
     },
     "author": "strange2x",
@@ -36,5 +37,11 @@
         "arrowParens": "always",
         "singleQuote": true
     },
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "mysql2": "^2.3.3",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.3.6"
+    }
 }
