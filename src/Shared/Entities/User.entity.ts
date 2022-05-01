@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Money } from './Money.entity';
 
 @Entity()
 export class User {
@@ -29,4 +30,10 @@ export class User {
         name: 'created_at',
     })
     createdAt?: string;
+
+    @OneToOne(() => Money)
+    @JoinColumn({
+        name: 'money_id',
+    })
+    money: Money;
 }

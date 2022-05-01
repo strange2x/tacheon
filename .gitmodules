@@ -4,3 +4,6 @@
 [submodule "src/tacheon-core"]
 	path = src/tacheon-core
 	url = https://github.com/strange2x/tacheon-core.git
+[submodule "src/tacheon-discord"]
+	path = src/tacheon-discord
+	url = https://github.com/strange2x/tacheon-discord.git
